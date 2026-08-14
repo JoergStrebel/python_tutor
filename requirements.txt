@@ -1,0 +1,11 @@
+# Everything the tutorial needs. Install with:
+#
+#     pip install -r requirements.txt
+#
+# pytest runs the step tests; rich and prompt_toolkit are the quiz's terminal
+# interface. pygments comes along with rich anyway, but quiz.py imports it
+# directly, so it is named here rather than relied on by accident.
+pytest>=8.0
+rich>=14.0
+prompt_toolkit>=3.0
+pygments>=2.13
